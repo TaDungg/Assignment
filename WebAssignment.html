@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Layout
+        </title>
+        <meta charset  ="utf=8">
+        <style>
+            body {
+                background-color:rgb(174, 158, 175);
+                background-repeat: no-repeat;
+            }
+            .container{
+                width: 90%;
+                margin: 0 auto;
+            }
+            .header {
+                background-color: rgb(188, 33, 33);
+                height: 80px;
+                width: 100%;
+            }
+            .bottom{
+                background-color: violet;
+                height: 80px;
+                width: 100%;
+                clear:both;
+            }
+            .left {  
+                background-color: blue;
+                height: 300px;
+                width: 20%;
+                float: left;
+            }
+            .main {
+                background-color: bisque;
+                height: 300px;
+                width: 60%;
+                float: left;
+                border: 1px solid black;
+                box-sizing: border-box;
+            }
+            .right{
+                background-color:green;
+                height: 300px;
+                width: 20%;
+                float: left;
+            }
+        </style>
+    </head>
+<body>
+    <div class="container">
+        <div class="header">header</div>
+        <div class="left">left</div>
+        <div class="main">main</div>
+        <div class="right">right</div>
+        <div class="bottom">Bottom</div>
+    </div>
+</body>
+</html>
